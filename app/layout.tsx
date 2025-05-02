@@ -30,6 +30,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/planet10.png" type="image/png" />
+      </head>
       {/* body remains relative for positioning context */}
       <body className="relative bg-black"> 
         {/* Wrap everything that might need the context in the Provider */}
